@@ -1,0 +1,59 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  /* box-sizing: border-box; */
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  padding:60px;
+}
+
+input{
+  width: 100%;
+  font-size:1.2rem;
+  color: #474747;
+}
+
+.gifCardContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gifCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 300px;
+  max-width:250px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin: 0 20px 20px 0;
+  box-shadow: rgba(0,0,0,0.19) 0px 10px 20px,
+  rgba(0,0,0,0.23) 0px 6px 6px;
+
+  /* box-shadow: rgba(14,30,37,0.12) 0px 2px 4px 0px,
+  rgba(14,30,37,0.32) 0px 2px 16px 0px; */
+
+  /* box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px; */
+  /* box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px,
+  rgba(0,0,0,.3) 0px 30px 60px -30px,
+  rgba(10,37,64,0.35) 0px -2px 6px 0px inset; */
+}
+
+.gifCard p {
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.gifCard img {
+  min-height: 70%;
+  min-width: 100%;
+}
+
+.loader {
+  background: url(https://holasvg.com/my-loader.svg) no-repeat;
+  height: 150px;
+}
