@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <GifExpertApp /> Debe de mostrar una lista de categorias 1`] = `
+<div>
+  <h2
+    className="animate__animated animate__zoomIn"
+  >
+    GifExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <h1>
+    <div>
+      <GifGrid
+        category="Goku"
+        key="Goku"
+      />
+      <GifGrid
+        category="Vegetta"
+        key="Vegetta"
+      />
+      <GifGrid
+        category="SSJX"
+        key="SSJX"
+      />
+    </div>
+  </h1>
+</div>
+`;
+
+exports[`Pruebas en el <GifExpertApp /> Debe de mostrarse correctamente 1`] = `
+<div>
+  <h2
+    className="animate__animated animate__zoomIn"
+  >
+    GifExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <h1>
+    <div />
+  </h1>
+</div>
+`;

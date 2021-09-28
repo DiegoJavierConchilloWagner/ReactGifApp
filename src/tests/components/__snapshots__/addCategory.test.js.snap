@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> Debe de mostrarse correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+  </p>
+  <input
+    onChange={[Function]}
+    placeholder="Buscar meme..."
+    type="text"
+    value=""
+  />
+</form>
+`;
